@@ -9,6 +9,7 @@ import OAI.LinearAlgebra.MatrixExponent.Sphere.General.Local
 import OAI.LinearAlgebra.MatrixExponent.Transcript.Protocol
 import OAI.LinearAlgebra.MatrixExponent.Transcript.Protocol.ReaderInputs
 import OAI.LinearAlgebra.SpectralBooks.ExactExponent
+import OAI.LinearAlgebra.SpectralBooks.RectangularGateBound
 
 /-!
 # Matrix multiplication exponents
@@ -24,6 +25,9 @@ spectral prices. This gives square equality and rectangular rigidity together.
 * `omega_eq` computes the square exponent for rational circuits.
 * `Rectangle.exponent_eq` gives the formula for nonnegative rectangular shapes.
 * `Integral.exponent_eq` extends the division-free formula to nonzero commutative rings.
+* `SpectralBooks.nonscalarCount_ceil_lower` gives the finite-size bound of
+  `⌈n ^ (9/4) / 2⌉` nonscalar gates (Corollary 1.2), and
+  `SpectralBooks.nonscalarCount_benchmark_ceil_lower` its rectangular form.
 
 The reductions below give equivalent rank bounds and sufficient network estimates.
 -/

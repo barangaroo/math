@@ -1572,6 +1572,18 @@ status:
       declaration: OAI.LinearAlgebra.SpectralBooks.rectangular_exponent
       file: OAI/LinearAlgebra/SpectralBooks/ExactExponent.lean
 
+    - comparator_config: ComparatorChallenges/NonscalarGateBound.json
+      declaration: OAI.LinearAlgebra.SpectralBooks.nonscalarCount_ceil_lower
+      file: OAI/LinearAlgebra/SpectralBooks/NonscalarGateBound.lean
+
+    - comparator_config: ComparatorChallenges/NonscalarGateBound.json
+      declaration: OAI.LinearAlgebra.SpectralBooks.nonscalarCount_benchmark_ceil_lower
+      file: OAI/LinearAlgebra/SpectralBooks/RectangularGateBound.lean
+
+    - comparator_config: ComparatorChallenges/NonscalarGateBound.json
+      declaration: OAI.LinearAlgebra.SpectralBooks.nonscalarCount_volume_ceil_lower
+      file: OAI/LinearAlgebra/SpectralBooks/RectangularGateBound.lean
+
     - comparator_config: ComparatorChallenges/MatrixFields.json
       declaration: OAI.MatrixAllFields.MatrixMultiplication.AllFieldMain.omega_lt_source_constant
       file: OAI/LinearAlgebra/MatrixFields/Conclusions/AllFieldsBound.lean

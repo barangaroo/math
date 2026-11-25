@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ComparatorChallenges.NonscalarGateBound",
+  "solution_module": "OAI.LinearAlgebra.SpectralBooks.RectangularGateBound",
+  "theorem_names": [
+    "OAI.LinearAlgebra.SpectralBooks.nonscalarCount_ceil_lower",
+    "OAI.LinearAlgebra.SpectralBooks.nonscalarCount_benchmark_ceil_lower",
+    "OAI.LinearAlgebra.SpectralBooks.nonscalarCount_volume_ceil_lower"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
